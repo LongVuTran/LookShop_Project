@@ -1,21 +1,11 @@
-.top-nav-outter {
-    padding-left: 0px;
-    padding-right: 0px;
-    background: #000000;
+#top-nav {
+	background-color: #000000;
+	/*height: 31px;*/
 }
 
-.top-nav-inner {
-    padding-left: 0px;
-    padding-right: 0px;
-    background: #000000;
+.text {
+	font-size: 11px;
+	color: #ffffff;
+
 }
 
-.btn-default {
-    padding-top: 22%;
-    padding-bottom: 22%;
-    padding-left: 20px;
-    padding-right: 30px;
-    border-radius: 0px;
-    color: #ffffff;
-    background-color: #000000;
-}
