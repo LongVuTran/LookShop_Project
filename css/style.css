@@ -1,11 +1,83 @@
-#top-nav {
+* {
+	box-sizing: border-box;
+}
+
+/*first header*/
+#navbar-first {
 	background-color: #000000;
-	/*height: 31px;*/
 }
 
-.text {
+#navbar-first nav {
+	height: 30px;
 	font-size: 11px;
-	color: #ffffff;
-
 }
+
+#navbar-first nav div a {
+	color: #ffffff;
+}
+
+#navbar-first nav div {
+	color: #ffffff;
+}
+
+#num-phone {
+	font-size: 12px;
+}
+
+#us-btn {
+	top: 10px;
+}
+
+#search-btn {
+	margin-top : 10px;
+}
+
+
+
+/*second header*/
+#navbar-second {
+	background: #ffffff;
+}
+
+#navbar-second nav {
+	height: 107px;
+}
+
+#navbar-second nav a {
+	font-size: 16px;
+	color: #000000;
+}
+
+.list-group {
+	margin-top: 0px;
+}
+
+.list-group-item {
+	height: 33px;
+	width: 215px;
+	padding-top: 3px;
+	color: #ababab;
+}
+
+#navbar-second nav .list-group a {
+	color: #ababab;
+}
+
+#cart-option {
+	font-size: 12px;
+}
+
+#title-option {
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+#group-item-two {
+	background: #fafafa;
+}
+
+
+/*slide*/
+
+
 
