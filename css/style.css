@@ -78,6 +78,198 @@
 
 
 /*slide*/
+.main-slide {
+	width: 101%;
+}
+
+.progress {
+	position: relative;
+	top: -8px;
+    height: 8px;
+	background: none;
+}
+
+.progress-bar {
+	height: 5px;
+	width: 65%;
+	filter: blur(15px);
+	background: #000000;
+}
+
+#content-slide-first {
+	position: absolute;
+	left: 175px;
+	top: 70px;
+	z-index: 1;
+	text-align: center;
+}
+
+#img-text-crazy hr {
+	position: relative;
+	top: -40px;
+	z-index: -1;
+	background: #78645d;
+}
+
+#img-text-crazy img {
+	background: #f6f3ec;
+}
+
+#img-text-crazysummer {
+	margin-top: -35px;
+}
+
+#img-text-crazysummer p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 5px;
+	background: #78645d;
+}
+
+#img-text-womancolection p {
+	margin-bottom: 14px;
+	height: 1px;
+	background: #78645d;
+}
+
+#img-text-womancolection {
+	margin-bottom: 18px;
+}
+
+.theme-control-icon {
+	margin-top: 163px;
+	width: 30px;
+	height: 117px;
+	background: #fefefd;
+}
+
+.carousel-indicators {
+	position: relative;
+	top: 559px;
+
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	margin-right: 6px;
+	margin-left: 3px;
+	border-radius: 10px;
+	background: #867a76;
+}
+
+.carousel-indicators .active {
+	background: #fd926d;
+}
 
 
+/*content*/
+#find-info-bar {
+	width: 100%;
+	margin-top: 76px;
+	background: #ededed;
+}
+
+input {
+	height: 30px;
+	width: 162px;
+	margin-left: 10px;
+	border: 0px;
+	font-size: 12px;
+	color: #c2c2c2;
+}
+
+#find-info-bar a {
+	position: relative;
+	top: -2px;
+	left: -32px;
+}
+
+.form-group {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#find-info-bar span {
+	font-size: 12px;
+	color: #777777;
+}
+
+#title-find {
+	position: relative;
+	right: -40px;
+}
+
+#title-find span {
+	margin-right: 45px;
+}
+
+.icon-social-second {
+	padding: 16px 11px 25px 11px;
+	background: #f7f7f7;
+}
+
+#icon-pinterest {
+	padding-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+	border: none;
+	border-radius: 0px;
+}
+
+#first-content {
+	margin-top: 40px;
+}
+
+#first-content img {
+	width: 100%;
+}
+
+.col-md-6 {
+	padding: 0px;
+}
+
+#block-img-no2 {
+	padding-right: 17px;
+}
+
+#img-first-no1 {
+	margin-right: 0px;
+	padding-left: 15px;
+	padding-right: 1px;
+}
+
+#img-first-no2 {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+
+}
+
+#block-img-no3 {
+	padding-top: 2px;
+}
+
+#img-first-no3 {
+	padding-right: 2px;
+	margin-right: 0px;
+}
+
+#img-first-no4 {
+	margin-left: 0px;
+}
 
