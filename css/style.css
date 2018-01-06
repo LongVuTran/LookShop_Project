@@ -85,7 +85,7 @@
 .progress {
 	position: relative;
 	top: -8px;
-    height: 8px;
+	height: 8px;
 	background: none;
 }
 
@@ -273,3 +273,57 @@ input {
 	margin-left: 0px;
 }
 
+#content-img-first {
+	position: relative;
+	top: -305px;
+	left: -170px;
+	text-align: center;
+}
+
+#best-title {
+	margin-bottom: 13px;
+}
+
+#outfit-title {
+	margin-top: -13px;
+}
+
+#and-title img{
+	position: relative;
+	z-index: 1;
+	margin-left: -15px;
+}
+
+#hr-title {
+	position: relative;
+	top: -18px;
+	left: 565px;
+	width: 212px;
+	height: 1px;
+	margin-bottom: 5px;
+	background: #414141; 
+}
+
+#content-img-second {
+	position: relative;
+	top: -575px;
+	left: 707px;
+}
+
+#content-img-third {
+	position: relative;
+	top: -405px;
+	left: 700px;
+}
+
+#content-img-fourth {
+	position: relative;
+	top: -520px;
+	left: 960px;
+}
+
+#btn2 {
+	position: relative;
+	top: 62px;
+	left: -120px;
+}
