@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: Arial;
 }
 
 /*first header*/
@@ -181,7 +182,6 @@ input {
 
 #find-info-bar a {
 	position: relative;
-	top: -2px;
 	left: -32px;
 }
 
@@ -212,19 +212,6 @@ input {
 #icon-pinterest {
 	padding-right: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .card {
 	border: none;
@@ -326,4 +313,186 @@ input {
 	position: relative;
 	top: 62px;
 	left: -120px;
+}
+
+/* .carousel-item.active,
+.carousel-item.active + .carousel-item,
+.carousel-item.active + .carousel-item  + .carousel-item {
+	width: 25%;
+	display: inline-block;
+	float:left;
+}    */
+
+#slide-second {
+	margin-top: -405px;
+}
+
+#slide-second nav {
+	margin-bottom: -8px;
+}
+
+#slide-second nav a:hover {
+	background: #fd926d;
+	color: #ffece7;
+}
+
+#slide-second a {
+	color: #555555;
+}
+
+#slide-second #slide {
+	background: #fd926d;
+}
+
+
+#slide-second .carousel-item {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.carousel-control-btn-prev, .carousel-control-btn-next {
+	width: 49px;
+	height: 49px;
+	background: #f2f2f2;	
+}
+
+.carousel-control-btn-next{
+	margin-right: 17px;
+	margin-top: -49px;
+}
+
+.carousel-control-btn-prev {
+	margin-top: -49px;
+	margin-left: 1025px;
+}
+
+.carousel-control-btn-next:hover, .carousel-control-btn-prev:hover {
+	background: #fd926d;
+}
+
+.control-icon, .control-icon{
+	margin-bottom: 8px;
+    font-size: 45px;
+    color: #979797;
+}
+
+.control-icon:hover, .control-icon:hover {
+	color: #ffffff;
+}
+
+#slide-second .carousel-item img:hover {
+
+}
+
+#brand-sell-off hr {
+	margin-top: -88px;
+    margin-bottom: 100px;
+    color: #d8d8d8;
+}
+
+#brand-sell-off img {
+	margin-top: 5px;
+	margin-left: 42%;
+}
+
+#favorite-brand img {
+	position: relative;
+    left: 44%;
+    top: 52px;
+}
+
+#favorite-brand hr {
+	margin-top: 36px;
+    margin-bottom: 25px;
+	color: #d8d8d8;
+}
+
+.brand .col-md-1 {
+	margin-right: 45px;
+}
+
+#about-lookShop {
+	margin-top: 10px;
+    text-align: center;
+}
+
+#about-lookShop h5 {
+	font-family: Arial;
+	font-size: 24px;
+	color: #414141;
+}
+
+#about-lookShop p {
+	font-family: Arial;
+	font-size: 14px;
+	color: #c6c6c6;
+}
+
+#creditCard-bar {
+	background: #f7f7f7;
+}
+
+#creditCard-bar p {
+	position: relative;
+    top: 20px;
+    left: 215px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+#creditCard-bar img {
+	position: relative;
+    top: -20px;
+    left: 311px;
+}
+
+.title-header {
+	margin-top: 35px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #544f4d;
+}
+
+#inner-info {
+	height: 225px;
+	background: #ededed;
+}
+
+.info-detail p {
+	margin-bottom: 3px;
+	font-size: 12px;
+	color: #8c8a89;
+}
+
+.block-social-icon {
+	margin-left: -10px;
+}
+
+.block-social-icon .col-md-4 {
+	margin-right: -18px;
+}
+
+#secured-percent img {
+	margin-top: 65px;
+}
+
+#bottom-navbar {
+	background: #000000;
+}
+
+#bottom-navbar nav {
+	background: #000000;
+}
+
+.bottom-brand {
+	
+}
+
+#navbarBottomItem a {
+	margin-left: -15px;
+    margin-right: 10px;
+    font-size: 11px;
+    color: #8d8d8d;
 }

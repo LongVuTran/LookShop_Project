@@ -4,13 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>homepage_desktop</title>
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- <script src="js/bootstrap.min.js"></script> -->
-
-  <title>homepage_desktop</title>
 </head>
 <body>
 
@@ -154,8 +152,6 @@
     </div>
   </div>
 
-
-
   <!--content -->
 
   <div>
@@ -241,8 +237,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
     <!-- slide second -->
-    <div>
+    <div id="slide-second">
       <nav class="navbar navbar-expand-lg container">
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav">
@@ -262,245 +267,268 @@
         </div>
       </nav>
 
-      <div id="carouselExampleControls" class="carousel slide container" data-ride="carousel">
-        <div class="carousel-inner col-md-12">
-          <div class="carousel-item active">
-            <img src="images/slide2_img1.png" alt="First slide">
+      <div id="slide"> 
+        <div id="multiCarousel" class="container carousel slide multi-item-carousel" data-ride="carousel">
+
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <a href="#"><img src="images/slide2_img1.png"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img2.png"></a>
+            </div>    
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img3.png"></a>
+            </div>    
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img4.png"></a>
+            </div>    
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img5.png"></a>
+            </div>    
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img1.png"></a>
+            </div>    
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img2.png"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img3.png"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img4.png"></a>
+            </div> 
+            <div class="carousel-item">
+              <a href="#"><img src="images/slide2_img5.png"></a>
+            </div> 
           </div>
-          <div class="carousel-item col-sx-3">
-            <img src="images/slide2_img1.png" alt="Second slide">
-          </div>
-          <div class="carousel-item col-sx-3">
-            <img src="images/slide2_img1.png" alt="Third slide">
-          </div>
-          <div class="carousel-item col-sx-3">
-            <img src="images/slide2_img1.png" alt="Third slide">
-          </div>
-          <div class="carousel-item col-sx-3">
-            <img src="  " alt="Third slide">
-          </div>
+
+          <a class="carousel-control-prev carousel-control-btn-prev" href="#multiCarousel" role="button" data-slide="prev">
+            <span class="control-icon" aria-hidden="true"><</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next carousel-control-btn-next" href="#multiCarousel" role="button" data-slide="next">
+            <span class="control-icon" aria-hidden="true">></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>  
+
+      </div>
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <div class="container">
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="images/content3_img1.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">NADIA DRESS</h5>
-            <p class="card-text">$64.95</p>
-            <p class="card-text"><a href="#"><img src="images/btn_add.png"></a></p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="images/content3_img2.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">SOFI BLOUSE</h5>
-            <p class="card-text">$26.95</p>
-            <p class="card-text"><a href="#"><img src="images/btn_add.png"></a></p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="images/content3_img3.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">GOODING SHORTS</h5>
-            <p class="card-text">$79.95</p>
-            <p class="card-text"><a href="#"><img src="images/btn_add.png"></a</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/content3_img4.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">MIMOSA LACE DRESS</h5>
-              <p class="card-text">$76</p>
-              <p class="card-text"><a href="#"><img src="images/btn_add.png"></a></p>
-            </div>
-          </div>
-        </div>
+      <div id="brand-sell-off">
+        <img src="images/brand_clearrance.png">  
+        <hr>
       </div>
 
-
-      <div class="container">
-        <!-- <div class="card-deck">
-          <div class="card">
-            <img src="images/addict_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/abandonship_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/adidas_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/boylondon_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/converse_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/calvinklein_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/edwin_brand.png">
-          </div>
-          <div class="card">
-            <img src="images/grenson_brand.png">
-          </div>
-        </div> -->
-
-        <div class="row">
-          <div class="col-md-1">
-            <img src="images/addict_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/abandonship_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/adidas_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/boylondon_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/converse_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/calvinklein_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/edwin_brand.png">
-          </div>
-          <div class="col-md-1">
-            <img src="images/grenson_brand.png">
-          </div>
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#"><img class="card-img-top" src="images/content3_img1.png" alt="Card image cap"></a>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img class="card-img-top" src="images/content3_img2.png" alt="Card image cap"></a>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img class="card-img-top" src="images/content3_img3.png" alt="Card image cap"></a>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img class="card-img-top" src="images/content3_img4.png" alt="Card image cap"></a>
         </div>
       </div>
-      
-      <div class="container">
-        <h4>About LookShop</h4>
-        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
-      </div>
-
     </div>
+
+
+    <div>
+      <div id="favorite-brand">
+        <img src="images/favorite_brand.png">
+        <hr>
+      </div>
+
+      <div class="container">
+        <div class="row brand">
+          <div class="col-md-1">
+            <img src="images/addict_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/abandonship_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/adidas_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/boylondon_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/converse_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/calvinklein_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/edwin_brand.png">
+          </div>
+          <div class="col-md-1">
+            <img src="images/grenson_brand.png">
+          </div>
+        </div>
+      </div>
+
+      <hr>
+    </div>
+
+
+
+
+    <div id="about-lookShop" class="container">
+      <h5>About LookShop</h5>
+      <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+    </div>
+
+  </div>
+</div>
+
+
+<!--footer -->
+<div>
+  <div id="creditCard-bar">
+    <p>We accept</p>
+    <img src="images/creditcard_img.png">
   </div>
 
-  
-  <!--footer -->
-  <div class="container">
+  <div id="inner-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <p class="title-header">Customer Service</p>
+          <div class="info-detail">
+            <p>Contact</p>
+            <p>FAQ</p>
+            <p>Terms of payment</p>
+            <p>Terms of sale</p>
+            <p>Delivery terms and conditions</p>
+            <p>Returns and Refunds</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p class="title-header">Information</p>
+          <div class="info-detail">
+            <p>Affiliate</p>
+            <p>Cookies</p>
+            <p>How to Shop</p>
+            <p>About Nelly</p>
+            <p>Investor relations</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p class="title-header">Campaigns</p>
+          <div class="info-detail">
+            <p>Evening dresses</p>
+            <p>Makeup</p>
+            <p>Fashion forward</p>
+            <p>training clothes</p>
+            <p>Special Occasion Dresses</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p class="title-header">Stores</p>
+          <div class="info-detail">
+            <p>Paris</p>
+            <p>New York</p>
+            <p>London</p>
+            <p>Madrid</p>
+            <p>Tokio</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p class="title-header">Social</p>
+          <div class="block-social-icon">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/twitter_icon1.png">
+              </div>
+              <div class="col-md-4">
+                <img src="images/pinterest1.png">
+              </div>
+              <div class="col-md-4">
+                <img src="images/facebook_icon1.png">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/googleplus_icon.png">
+              </div>
+              <div class="col-md-4">
+                <img src="images/tumblr_icon.png">
+              </div>
+              <div class="col-md-4">
+                <img src="images/vine_icon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="secured-percent" class="col-md-2">
+          <img src="images/secured_icon.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div> 
     <div>
-      <p>We accept<span><img src="images/creditcard_img.png"></span></p>
+      <span>Privacy & Cookies</span>
+      <span>Terms & Conditions </span>
+      <span>Accessibility  </span>
+      <span>Store Directory </span>
+      <span> About Us</span>
     </div>
-    
-    <div class="row">
-      <div class="col-md-2">
-        <h4>Customer Service</h4>
-        <p>Contact</p>
-        <p>FAQ</p>
-        <p>Terms of payment</p>
-        <p>Terms of sale</p>
-        <p>Delivery terms and conditions</p>
-        <p>Returns and Refunds</p>
-      </div>
-      <div class="col-md-2">
-        <h4>Information</h4>
-        <p>Affiliate</p>
-        <p>Cookies</p>
-        <p>How to Shop</p>
-        <p>About Nelly</p>
-        <p>Investor relations</p>
-      </div>
-      <div class="col-md-2">
-        <h4>Campaigns</h4>
-        <p>Evening dresses</p>
-        <p>Makeup</p>
-        <p>Fashion forward</p>
-        <p>training clothes</p>
-        <p>Special Occasion Dresses</p>
-      </div>
-      <div class="col-md-2">
-        <h4>Stores</h4>
-        <p>Paris</p>
-        <p>New York</p>
-        <p>London</p>
-        <p>Madrid</p>
-        <p>Tokio</p>
-      </div>
-      <div class="col-md-2">
-        <h4>Social</h4>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="images/twitter_icon1.png">
-          </div>
-          <div class="col-md-4">
-            <img src="images/pinterest1.png">
-          </div>
-          <div class="col-md-4">
-            <img src="images/facebook_icon1.png">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="images/googleplus_icon.png">
-          </div>
-          <div class="col-md-4">
-            <img src="images/tumblr_icon.png">
-          </div>
-          <div class="col-md-4">
-            <img src="images/vine_icon.png">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <img src="images/secured_icon.png">
-      </div>
+    <div class="float-right">
+      <img src="images/info_footer.png">
     </div>
+  </div> -->
 
-    <div>
-      <div>
-        <span>Privacy & Cookies</span>
-        <span>Terms & Conditions </span>
-        <span>Accessibility  </span>
-        <span>Store Directory </span>
-        <span> About Us</span>
+  <div id="bottom-navbar">
+    <nav class="container navbar navbar-expand-lg">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottomItem" aria-controls="navbarBottomItem" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarBottomItem">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Privacy & Cookies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Terms & Conditions</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessibility </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Store Directory  </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
       </div>
-      <div class="float-right">
+
+      <div class="bottom-brand" href="#">
         <img src="images/info_footer.png">
       </div>
-    </div>
 
+    </nav>
   </div>
 
+</div>
 
- <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-  
-  <script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
 
 </body>
 </html>
