@@ -25,14 +25,12 @@
 	font-size: 12px;
 }
 
-#us-btn {
-	top: 10px;
+.item-btn {
+	height: 32px;
+    margin-top: 11px;
+	border-left: 1px solid #444444;
+	border-right: 1px solid #444444;
 }
-
-#search-btn {
-	margin-top : 10px;
-}
-
 
 
 /*second header*/
@@ -42,6 +40,15 @@
 
 #navbar-second nav {
 	height: 107px;
+}
+
+#navbar-second .nav-item {
+	margin-right: 15px;
+}
+
+#navbar-second li:hover {
+	color: #ffece7;
+	background: #fd926d;
 }
 
 #navbar-second nav a {
@@ -167,6 +174,7 @@
 /*content*/
 #find-info-bar {
 	width: 100%;
+	height: 55px;
 	margin-top: 76px;
 	background: #ededed;
 }
@@ -175,8 +183,10 @@ input {
 	height: 30px;
 	width: 162px;
 	margin-left: 10px;
+	padding-left: 10px;
 	border: 0px;
 	font-size: 12px;
+	font-style: italic;
 	color: #c2c2c2;
 }
 
@@ -195,23 +205,23 @@ input {
 	color: #777777;
 }
 
-#title-find {
+#social-find {
 	position: relative;
-	right: -40px;
+	right: -30px;
 }
 
-#title-find span {
+#social-find span {
 	margin-right: 45px;
 }
 
-.icon-social-second {
-	padding: 16px 11px 25px 11px;
-	background: #f7f7f7;
+#social-find img {
+    margin-right: -4px;
 }
 
-#icon-pinterest {
-	padding-right: 8px;
+.icon:hover {
+	
 }
+
 
 .card {
 	border: none;
@@ -340,11 +350,11 @@ input {
 	color: #555555;
 }
 
-#slide-second #slide {
+/* #slide-second #slide {
 	background: #fd926d;
-}
+} */
 
-
+/* 
 #slide-second .carousel-item {
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -382,7 +392,7 @@ input {
 
 #slide-second .carousel-item img:hover {
 
-}
+} */
 
 #brand-sell-off hr {
 	margin-top: -88px;
@@ -495,4 +505,18 @@ input {
     margin-right: 10px;
     font-size: 11px;
     color: #8d8d8d;
+}
+
+.border-term {
+	height: 11px;
+	border-right: 1px solid #8d8d8d;
+    border-left: 1px solid #8d8d8d;
+}
+
+#bottom-navbar ul {
+
+}
+
+.center img {
+	margin-right: 10px;
 }

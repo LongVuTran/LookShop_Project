@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,10 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="images/font-awesome.min.css">
 </head>
+
 <body>
 
   <div>
@@ -22,15 +25,15 @@
 
        <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li id="us-btn" class="nav-item dropdown">
+          <li class="nav-item dropdown item-btn">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               $ US
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="#"><span><img src="images/icon_account.png"></span>MY ACCOUNT</a>
+            <a class="nav-link account" href="#"><span><img src="images/icon_account.png"></span>MY ACCOUNT</a>
           </li>
-          <li id="search-btn" class="nav-item ">
+          <li class="nav-item item-btn">
             <a class="nav-link" href="#"><img src="images/search_icon.png"></a>
           </li>
         </ul>
@@ -167,11 +170,11 @@
           </div>
         </form>
 
-        <div id="title-find" class="mr-0">
+        <div id="social-find" class="ml-auto">
           <span>Find us here</span>  
-          <a class="icon-social-second" href="#"><img src="images/facebook_icon.png"></a>
-          <a href="#"><img src="images/twitter_icon.png"></a>
-          <a id="icon-pinterest" class="icon-social-second" href="#"><img src="images/pinterest.png"></a>
+          <a class="icon" href="#"><img src="images/facebook_icon.png"></a>
+          <a class="icon" href="#"><img src="images/twitter_icon.png"></a>
+          <a class="icon" href="#"><img src="images/pinterest.png"></a>
         </div>
       </div>
     </nav>
@@ -267,8 +270,8 @@
         </div>
       </nav>
 
-      <div id="slide"> 
-        <div id="multiCarousel" class="container carousel slide multi-item-carousel" data-ride="carousel">
+      <!-- <div id="slide"> 
+        <div id="multiCarousel" class="carousel slide multi-item-carousel" data-ride="carousel">
 
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -313,6 +316,47 @@
           </a>
         </div>
 
+      </div> -->
+
+      <div class="center">
+        <div>
+          <a href="#"><img src="images/slide2_img1.png"></a>
+          <!-- <div>
+            <p>MIMOSA LACE DRESS</p>
+            <p>$76.95</p>
+            <a href="#"><img src="images/btn_add.png"></a>
+          </div> -->
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img2.png"></a>
+          <div>
+            
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img3.png"></a>
+          <div>
+            
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img1.png"></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img2.png"></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img3.png"></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img1.png"></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img2.png"></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/slide2_img3.png"></a>
+        </div>
       </div>
 
     </div>
@@ -501,13 +545,13 @@
             <a class="nav-link" href="#">Privacy & Cookies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Terms & Conditions</a>
+            <a class="nav-link border-term" href="#">Terms & Conditions</a>
           </li>    
           <li class="nav-item">
             <a class="nav-link" href="#">Accessibility </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Store Directory  </a>
+            <a class="nav-link border-term" href="#">Store Directory  </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -526,8 +570,11 @@
 
 
 <script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slick.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+
 
 
 </body>
