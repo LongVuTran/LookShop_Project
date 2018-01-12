@@ -9,124 +9,179 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="images/font-awesome.min.css">
+	<link rel="stylesheet" href="font/font-awesome.min.css">
 </head>
 <body>
 	<div>
-		<div id="navbar-first">
-			<nav class="navbar navbar-expand-lg container">
-				<div class="navbar-text">
-					<span>CUSTOM CARE:</span>
-					<span id="num-phone">888-23-4567</span>
-				</div>
+		<div>
+			<div id="navbar-first">
+				<nav class="navbar navbar-expand-lg container">
+					<div class="navbar-text">
+						<span>CUSTOM CARE:</span>
+						<span id="num-phone">888-23-4567</span>
+					</div>
 
-				<div class="collapse navbar-collapse " id="navbarSupportedContent">
+					<div class="collapse navbar-collapse " id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item dropdown item-btn">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									$ US
+								</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link account" href="#"><span><img src="images/icon_account.png"></span>MY ACCOUNT</a>
+							</li>
+							<li class="nav-item item-btn">
+								<a class="nav-link" href="#"><img src="images/search_icon.png"></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+
+		<div id="navbar-second">
+			<nav class="navbar navbar-expand-lg container">
+				<a class="navbar-brand" href="#">
+					<img alt="Brand" src="./images/logo.png">
+				</a>
+
+				<div class="collapse navbar-collapse">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item dropdown item-btn">
-							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								$ US
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								new
 							</a>
 						</li>
-						<li class="nav-item ">
-							<a class="nav-link account" href="#"><span><img src="images/icon_account.png"></span>MY ACCOUNT</a>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								designers
+							</a>
 						</li>
-						<li class="nav-item item-btn">
-							<a class="nav-link" href="#"><img src="images/search_icon.png"></a>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								women
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								men
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								clearence
+							</a>
+						</li>
+
+					</ul>
+
+					<ul class="list-group">
+						<li class="list-group-item dropdown">
+							<span id="cart-option">Your cart</span>
+							<a class="nav-link dropdown-toggle float-right" href="#">
+							</a>
+						</li>
+						<li id="group-item-two" class="list-group-item">
+							<img src="images/shopping_icon.png">
+							<span id="title-option" class="float-right">0 ITEMS  |  $ 0</span>
 						</li>
 					</ul>
+
 				</div>
 			</nav>
 		</div>
 	</div>
 
 
-	<div id="navbar-second">
-		<nav class="navbar navbar-expand-lg container">
-			<a class="navbar-brand" href="#">
-				<img alt="Brand" src="./images/logo.png">
-			</a>
-
-			<div class="collapse navbar-collapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							new
-						</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							designers
-						</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							women
-						</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							men
-						</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							clearence
-						</a>
-					</li>
-
-				</ul>
-
-				<ul class="list-group">
-					<li class="list-group-item dropdown">
-						<span id="cart-option">Your cart</span>
-						<a class="nav-link dropdown-toggle float-right" href="#">
-						</a>
-					</li>
-					<li id="group-item-two" class="list-group-item">
-						<img src="images/shopping_icon.png">
-						<span id="title-option" class="float-right">0 ITEMS  |  $ 0</span>
-					</li>
-				</ul>
-
-			</div>
-		</nav>
-	</div>
-
 
 	<!-- content -->
 
 	<div class="container">
-		<nav>
+		<div id="product-content-nav-first">
 			<hr>
-			<div class="navbar-text">
+			<nav class="navbar navbar-expand-lg ">	
 				<a class="navbar-brand" href="#"><img src="images/home_icon.png"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFirstProductPage" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<p>>  Women</p>
+					</li>
+					<li class="nav-item">
+						<p>>  Clothing</p>
+					</li>
+					<li class="nav-item">
+						<p>>  Blouses & Shirts</p>
+					</li>
+					<li class="nav-item">
+						<p>>  Sofi Blouse</p>
+					</li>
+				</ul>
+			</nav>
+			<hr>
+		</div>
+		
+		<div id="product-content-main-img">
+			<div  class="row">
+				<div class="col-md-4 main-content">
+					<div class="main-img">
+						<img src="images/main_product.png">
+					</div>
+					<div class="row extra-img">
+						<div class="col-md-3">
+							<img src="images/extra1_main_product.png">
+						</div>
+						<div class="col-md-3">
+							<img src="images/extra2_main_product.png">
+						</div>
+						<div class="col-md-3">
+							<img src="images/extra3_main_product.png">
+						</div>
+						<div class="col-md-3">
+							<img src="images/extra4_main_product.png">
+						</div>
+					</div>
+				</div>
 
-				<div class="collapse navbar-collapse" id="navbarFirstProductPage">
-					<ul>
-						<li class="nav-item">
-							<p>>  Women</p>
-						</li>
-						<li class="nav-item">
-							<p>>  Clothing</p>
-						</li>
-						<li class="nav-item">
-							<p>>  Blouses & Shirts</p>
-						</li>
-						<li class="nav-item">
-							<p>>  B.young</p>
-						</li>
-						<li class="nav-item">
-							<p>>  Sofi Blouse</p>
-						</li>
-					</ul>
+				<div class="col-md-8 content-image">
+					<div class="content-artical arrow-title">
+						<img src="images/arrow_left_product.png">
+						<p >Back to <a class="link-women-clothing" href="#">Women’s Clothing</a></p>
+						<hr>
+					</div class="content-artical">
+					<p class="content-artical name-clothes">Sofi Blouse</p>
+					<p class="content-artical cost-clothes">$98.95</p>
+					<span class="content-artical view">12 reviews<img src="images/strip-black.png"></span>	
+					<p class="content-artical artical text-justify">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+
+					<div class="content-artical select">
+						<hr>
+						<select class="custom-select-md">
+							<option>Select size</option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+						</select>
+						<img class="float-right" src="images/strip-color.png">
+						<hr>
+					</div>
+					<div class="content-artical">
+
+					</div>
 				</div>
 			</div>
-			<hr>
-		</nav>
+		</div>
+
 	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 
 </body>
 </html>

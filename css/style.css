@@ -611,6 +611,92 @@ input {
 }
 
 
-#navbarFirstProductPage p {
-	color: #7a706d;
+#product-content-nav-first nav {
+	margin-left: -15px;
+	height: 30px;
+}
+
+#product-content-nav-first hr {
+	margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#product-content-nav-first nav p {
+    margin-right: 15px;
+    margin-bottom: -2px;
+    font-size: 11px;
+    color: #7a706d;
+}
+
+#product-content-main-img {
+	margin-top: 26px;
+}
+
+.main-content {
+
+}
+
+.content-image {
+
+}
+
+.content-image hr {
+	
+}
+
+.main-img {
+
+}
+
+.extra-img {
+	margin-top: 15px;
+	width: 120%;
+}
+
+
+.content-artical {
+	margin-left: 52px;
+	font-size: 12px;
+}
+
+.name-clothes {
+	margin-top: -8px;
+	font-size: 24px;
+	color: #4a4a4a;
+}
+
+.cost-clothes {
+	font-size: 36px;
+	color: #fd926d;
+}
+
+.link-women-clothing {
+	color: #fd926d;
+}
+
+.arrow-title {
+	margin-top: 12px;
+}
+
+.arrow-title p {
+	margin-top: -17px;
+    margin-left: 17px;
+}
+
+.view {
+	position: relative;
+    top: -57px;
+    float: right;
+}
+
+.content-image span > img {
+	margin-left: 15px;
+}
+
+.artical {
+	margin-top: 34px;
+}
+
+.select img {
+	
 }
