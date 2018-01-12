@@ -685,7 +685,7 @@ input {
 
 .view {
 	position: relative;
-    top: -57px;
+    top: -47px;
     float: right;
 }
 
@@ -697,6 +697,11 @@ input {
 	margin-top: 34px;
 }
 
+.select select {
+	height: 31px;
+	width: 192px;
+}
+
 .select img {
-	
+
 }
