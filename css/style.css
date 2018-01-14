@@ -222,11 +222,6 @@ input {
     margin-right: -4px;
 }
 
-.icon:hover {
-	
-}
-
-
 .card {
 	border: none;
 	border-radius: 0px;
@@ -258,7 +253,6 @@ input {
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: 0px;
-
 }
 
 #block-img-no3 {
@@ -329,14 +323,6 @@ input {
 	left: -120px;
 }
 
-/* .carousel-item.active,
-.carousel-item.active + .carousel-item,
-.carousel-item.active + .carousel-item  + .carousel-item {
-	width: 25%;
-	display: inline-block;
-	float:left;
-}    */
-
 #slide-second {
 	margin-top: -405px;
 }
@@ -352,22 +338,6 @@ input {
 
 #slide-second a {
 	color: #555555;
-}
-
-/* #slide-second #slide {
-	background: #fd926d;
-} */
-
-/* 
-#slide-second .carousel-item {
-	padding-top: 32px;
-	padding-bottom: 32px;
-}
-
-.carousel-control-btn-prev, .carousel-control-btn-next {
-	width: 49px;
-	height: 49px;
-	background: #f2f2f2;	
 }
 
 .carousel-control-btn-next{
@@ -396,7 +366,7 @@ input {
 
 #slide-second .carousel-item img:hover {
 
-} */
+} 
 
 #brand-sell-off hr {
 	margin-top: -88px;
@@ -446,10 +416,14 @@ input {
 	background: #f7f7f7;
 }
 
+#creditCard-bar div {
+	margin-left: 60px;
+}
+
 #creditCard-bar p {
 	position: relative;
     top: 20px;
-    left: 312px;
+    left: 300px;
     font-family: Arial;
     font-size: 12px;
     color: #cccccc;
@@ -482,14 +456,11 @@ input {
 
 .block-social-icon {
 	margin-left: -10px;
-}
-
-.block-social-icon .col-md-4 {
-	margin-right: -18px;
+    margin-right: 65px;
 }
 
 #secured-percent img {
-	float: right;
+	margin-left: 70px;
 	margin-top: 65px;
 }
 
@@ -503,14 +474,9 @@ input {
 
 #bottom-navbar .nav-link {
 	display: inline-table;
-
     display: 2px;
     padding-bottom: 0px;
     padding-top: 0px;
-    padding-left: 8px;
-    padding-right: 12px;
-    /* margin: 0px; */
-    /* margin-left: 8px; */
     margin-right: 0px
 }
 
@@ -519,10 +485,12 @@ input {
 }
 
 #navbarBottomItem a {
-	/* margin-left: -15px;
-    margin-right: 10px; */
     font-size: 11px;
     color: #8d8d8d;
+}
+
+#bottom-navbar ul {
+	margin-left: -10px;
 }
 
 .border-term {
@@ -582,10 +550,10 @@ input {
 }
 
 .hover-center {
-	display: none;
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 45px;
+	z-index: -1;
 }
 
 .hover-center p {
@@ -602,14 +570,9 @@ input {
     left: 50px;
 }
 
-.image-hover p:hover {
-	display: block;
+.image-hove:hover {
+	z-index: 1;
 }
-
-.image-hover {
-	
-}
-
 
 #product-content-nav-first nav {
 	margin-left: -15px;
@@ -632,27 +595,10 @@ input {
 	margin-top: 26px;
 }
 
-.main-content {
-
-}
-
-.content-image {
-
-}
-
-.content-image hr {
-	
-}
-
-.main-img {
-
-}
-
 .extra-img {
 	margin-top: 15px;
 	width: 120%;
 }
-
 
 .content-artical {
 	margin-left: 52px;
@@ -702,6 +648,18 @@ input {
 	width: 192px;
 }
 
-.select img {
+.bottom-brand {
+	margin-right: -25px;
+}
 
+.social {
+	margin-left: -70px;
+}
+
+.infomation {
+	margin-left: 50px;
+}
+
+.campaigns {
+	margin-left: -12px;
 }

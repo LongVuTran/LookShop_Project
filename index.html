@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/homepage_ipad.css" media="(min-width: 768px)>
+  <link rel="stylesheet" href="css/homepage_iphone.css" media="(min-width: 640px)">
   <link rel="stylesheet" href="font/font-awesome.min.css">
 </head>
 
@@ -17,7 +19,7 @@
 
   <div>
     <div id="navbar-first">
-      <nav class="navbar navbar-expand-lg container">
+      <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-sx container">
         <div class="navbar-text">
          <span>CUSTOM CARE:</span>
          <span id="num-phone">888-23-4567</span>
@@ -42,12 +44,15 @@
   </div>
 
   <div id="navbar-second">
-    <nav class="navbar navbar-expand-lg container">
+    <nav class="navbar navbar-expand-lg navbar-expand-sm container">
       <a class="navbar-brand" href="#">
         <img alt="Brand" src="./images/logo.png">
       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOption" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="navbarOption">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="./product_desktop.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -236,19 +241,6 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- slide second -->
     <div id="slide-second">
       <nav class="navbar navbar-expand-lg container">
@@ -269,8 +261,6 @@
           </ul>
         </div>
       </nav>
-
-
 
       <div class="center">
         <div>
@@ -438,7 +428,6 @@
 
   </div>
 
-
   <div class="container">
     <div id="brand-sell-off">
       <img src="images/brand_clearrance.png">  
@@ -489,7 +478,6 @@
     </div>
   </div>
 
-
   <div>
     <div id="favorite-brand">
       <img src="images/favorite_brand.png">
@@ -528,9 +516,6 @@
     <hr>
   </div>
 
-
-
-
   <div id="about-lookShop" class="container">
     <h5>About LookShop</h5>
     <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
@@ -543,8 +528,10 @@
 <!--footer -->
 <div>
   <div id="creditCard-bar">
-    <p>We accept</p>
-    <img src="images/creditcard_img.png">
+    <div>
+      <p>We accept</p>
+      <img src="images/creditcard_img.png">
+    </div>
   </div>
 
   <div id="inner-info">
@@ -561,7 +548,7 @@
             <p>Returns and Refunds</p>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 infomation">
           <p class="title-header">Information</p>
           <div class="info-detail">
             <p>Affiliate</p>
@@ -571,7 +558,7 @@
             <p>Investor relations</p>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 campaigns">
           <p class="title-header">Campaigns</p>
           <div class="info-detail">
             <p>Evening dresses</p>
@@ -581,7 +568,7 @@
             <p>Special Occasion Dresses</p>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 store">
           <p class="title-header">Stores</p>
           <div class="info-detail">
             <p>Paris</p>
@@ -591,7 +578,7 @@
             <p>Tokio</p>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 social">
           <p class="title-header">Social</p>
           <div class="block-social-icon">
             <div class="row">
@@ -624,18 +611,6 @@
       </div>
     </div>
   </div>
-  <!-- <div> 
-    <div>
-      <span>Privacy & Cookies</span>
-      <span>Terms & Conditions </span>
-      <span>Accessibility  </span>
-      <span>Store Directory </span>
-      <span> About Us</span>
-    </div>
-    <div class="float-right">
-      <img src="images/info_footer.png">
-    </div>
-  </div> -->
 
   <div id="bottom-navbar">
     <nav class="container navbar navbar-expand-lg">
@@ -679,8 +654,6 @@
 <script src="js/slick.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
-
-
 
 </body>
 </html>
