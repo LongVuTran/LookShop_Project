@@ -249,7 +249,7 @@ form {
 }
 
 .info-slide p {
-	margin-left: 20px;
+	margin-right: 92px;
 }
 
 .carousel-control-btn-next {
@@ -270,7 +270,7 @@ form {
 
 #brand-sell-off img {
 	margin-top: 5px;
-	margin-left: 397px;
+	margin-left: 222px;
 }
 
 .last-image {
@@ -279,18 +279,79 @@ form {
 
 .img-item {
 	margin-left: -74px;
-    margin-right: -74px;
-    margin-bottom: -95px;
+    margin-right: -337px;
+    margin-bottom: -118px;
 }
 
 #fifth-content .brand {
-	margin-left: -30px;
+	margin-left: 2px;
 }
 
 .brand .col-md-2 {
-	
+	margin-right: 5px;
 }
 
 .erease-brand {
 	display: none;
+}
+
+#favorite-brand img {
+	margin-left: -219px;
+}
+
+#about-lookShop p {
+	margin-left: -60px;
+    margin-right: -60px;
+}
+
+#creditCard-bar div {
+	margin-left: -200px;
+}
+
+#inner-info {
+	height: 348px;
+    background: #ededed;
+}
+
+#inner-info .row {
+	width: 145%;
+	margin-left: -31px;
+}
+
+.campaigns {
+	margin-left: -375px;
+    margin-top: 170px;
+}
+
+.store {
+	margin-left: 40px;
+    margin-top: 170px;
+}
+
+.infomation {
+	margin-left: 40px;
+}
+
+.social {
+	margin-left: 34px;
+}
+
+.block-social-icon {
+	margin-left: 8px;
+    margin-right: 37px;
+}
+
+.bottom-brand img {
+	margin-right: -38px;
+}
+
+#bottom-navbar nav {
+	height: 75px;
+}
+
+#bottom-navbar ul {
+	margin-top: 25px;
+}
+
+.navbar-light .navbar-toggler-icon {
 }

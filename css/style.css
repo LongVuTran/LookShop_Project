@@ -471,12 +471,12 @@ input {
 
 #fifth-content .brand {
 	width: 100%;
-	margin-left: 58px;
+	margin-left: 96px;
 }
 
 #favorite-brand img {
 	position: relative;
-    left: 512px;
+    left: 496px;
     top: 52px;
 }
 
@@ -488,7 +488,7 @@ input {
 
 .brand .col-md-1 {
 	margin-left: -5px;
-	margin-right: 32px;
+	margin-right: -77px;
 }
 
 .converse-brand {
@@ -804,4 +804,9 @@ input {
 	text-align: center;
     margin-right: 83px;
     font-size: 12px;
+}
+
+.info-slide .last-product {
+	position: relative;
+    left: 40px;
 }
