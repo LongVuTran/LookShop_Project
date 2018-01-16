@@ -7,12 +7,14 @@ $(document).ready(function() {
 		variableWidth: false,
 		responsive: [
 		{
-			breakpoint: 768,
+			breakpoint: 1199,
 			settings: {
 				arrows: false,
 				centerMode: true,
-				centerPadding: '40px',
-				slidesToShow: 3
+				infinite: true,
+				centerPadding: '0px',
+				slidesToShow: 3,
+				variableWidth: false
 			}
 		},
 		{

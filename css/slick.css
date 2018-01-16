@@ -27,6 +27,7 @@
 
     margin: 0;
     padding: 0;
+    margin-top: -17px;
 }
 
 .slick-list:focus
@@ -79,13 +80,14 @@
 {
     display: none;
     float: left;
-
+    
+    width: auto;
     height: 100%;
     min-height: 1px;
 
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 27px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 14px;
 }
 
 [dir='rtl'] .slick-slide
@@ -129,15 +131,15 @@
 
 .slick-prev {
     position: relative;
-    left: 1112px;
+    left: 961px;
     top: -47px;
    
 }
 
 .slick-next {
     position: relative;
-    left: 1170px;
-    top: -489px;
+    left: 1019px;
+    top: -565px;
    
 }
 
@@ -157,34 +159,13 @@
 }
 
 .slick-slide {
-    height: 395px
+   /*  height: 455px */
 }
 
 .slick-slide img:hover {
    display: block;
    z-index: 1;
 }
-
-/* .hover-center {
-    display: none;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 45px;
-}
-
-.hover-center p {
-    position: relative;
-    top: 115px;
-    left: 43px;
-    font-size: 12px;
-    color: #ffffff;
-}
-
-.shop-icon {
-    position: relative;
-    top: 110px;
-    left: 50px;
-} */
 
 .slick-slide:hover .image-hover{
 
