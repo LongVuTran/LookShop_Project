@@ -208,7 +208,7 @@ form {
 
 #outfit-title img {
 	width: 164px;
-    height: 43px;
+    height: auto;
     position: relative;
     top: 35px;
     left: 75px;
@@ -224,7 +224,7 @@ form {
 
 #looks-title img {
 	width: 166px;
-    height: 47px;
+    height: auto;
     position: relative;
     top: 15px;
     right: -80px;
@@ -250,6 +250,7 @@ form {
     top: -1062px;
     left: 405px;
     width: 100px;
+    height: auto;
 }
 
 #content-img-third img {
@@ -267,7 +268,8 @@ form {
 
 #content-img-fourth img {
 	width: 91px;
-	height: 44px;
+	height: 44
+	px;
     position: relative;
     top: 1;
     left: -410px;

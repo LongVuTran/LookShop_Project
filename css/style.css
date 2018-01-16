@@ -458,26 +458,52 @@ input {
 	width: 84.5%;
 }
 
+#brand-sell-off {
+	position: relative;
+	top: -100px;
+}
+
 #brand-sell-off hr {
-	margin-top: -88px;
-    margin-bottom: 100px;
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: -4px;
     color: #d8d8d8;
 }
 
 #brand-sell-off img {
-	margin-top: 5px;
-	margin-left: 397px;
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: -92px;
+    z-index: 1;
+}
+
+#fifth-content .row {
+
 }
 
 #fifth-content .brand {
 	width: 100%;
 	margin-left: 96px;
+	position: relative;
+	top: 31px;
+	height: 86px;
+}
+
+#favorite-brand {
+	position: relative;
+	top: 18px;
 }
 
 #favorite-brand img {
-	position: relative;
-    left: 496px;
-    top: 52px;
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: -16px;
 }
 
 #favorite-brand hr {
@@ -675,6 +701,7 @@ input {
 }
 
 .img-item {
+	margin-top: 206px;
 	margin-left: -16px;
 	margin-right: -15px;
 	margin-bottom: -95px;
@@ -688,7 +715,7 @@ input {
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 45px;
-	z-index: -1;
+	display: none;
 }
 
 .hover-center p {
@@ -829,4 +856,19 @@ input {
 	position: relative;
 	left: 50px;
 	top: -121px;
+}
+
+
+.slick-slide:hover .hover-center {
+    display: block;
+}
+
+.slick-slide:hover {
+	
+}
+
+.slick-slide:hover .image-hover .img-hov img {
+	width: 242px;
+	height: 416px;
+	margin-top: -15px;
 }
