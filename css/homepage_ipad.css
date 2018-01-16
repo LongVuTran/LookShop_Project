@@ -201,25 +201,38 @@ form {
 #best-title img {
 	width: 53px;
 	height: 21px;
+	position: relative;
+	top: 42px;
+	left: 72px;
 }
 
 #outfit-title img {
 	width: 164px;
     height: 43px;
+    position: relative;
+    top: 35px;
+    left: 75px;
+    margin-bottom: 18px;
 }
 
 #and-title img {
 	width: 35px;
+	position: relative;
+    left: 84px;
+    top: 15px;
 }
 
 #looks-title img {
 	width: 166px;
     height: 47px;
+    position: relative;
+    top: 15px;
+    right: -80px;
 }
 
 #hr-title {
-	width: 162px;
-    left: 294px;
+	width: 145px;
+    left: 380px;
 }
 
 #content-img-first div {
@@ -231,22 +244,25 @@ form {
 	margin-bottom: 450px;
 }
 
-#best-title img, #content-img-second img, #content-img-third img, #content-img-fourth  {
-	/* display: none; */
-}
 
 #content-img-second img {
 	position: relative;
-    top: -1053px;
+    top: -1062px;
     left: 405px;
     width: 100px;
 }
 
 #content-img-third img {
 	position: relative;
-    top: -940px;
+    top: -957px;
     left: 405px;
     width: 140px;
+}
+
+#content-img-fourth {
+	position: relative;
+    top: -537px;
+    left: 960px;
 }
 
 #content-img-fourth img {
