@@ -199,17 +199,32 @@ form {
 }
 
 #best-title img {
-	/* width: 53px;
-	height: 21px; */
+	width: 53px;
+	height: 21px;
+}
+
+#outfit-title img {
+	width: 164px;
+    height: 43px;
+}
+
+#and-title img {
+	width: 35px;
+}
+
+#looks-title img {
+	width: 166px;
+    height: 47px;
+}
+
+#hr-title {
+	width: 162px;
+    left: 294px;
 }
 
 #content-img-first div {
 	position: relative;
-	z-index: -1;
-}
-
-#content-img-first {
-	display: none;
+    top: -600px;
 }
 
 #first-content {
@@ -217,18 +232,50 @@ form {
 }
 
 #best-title img, #content-img-second img, #content-img-third img, #content-img-fourth  {
-	display: none;
+	/* display: none; */
+}
+
+#content-img-second img {
+	position: relative;
+    top: -1053px;
+    left: 405px;
+    width: 100px;
+}
+
+#content-img-third img {
+	position: relative;
+    top: -940px;
+    left: 405px;
+    width: 140px;
+}
+
+#content-img-fourth img {
+	width: 91px;
+	height: 44px;
+    position: relative;
+    top: 1;
+    left: -410px;
+    top: -488px;
+    
+}
+
+.fallLeather-title {
+	margin-top: -59px;
+    margin-left: 19px;	
+}
+
+.shopnow-btn2 {
+	margin-top: 29px;
+    margin-left: -85px;
 }
 
 #slide-second {
-	margin-top: -576px;
+	margin-top: -975px;
 }
 
 #slide-second nav .collapse{
 	display: block;
 }
-
-
 
 #slide-second ul {
 	margin-left: 70px;
@@ -246,6 +293,10 @@ form {
 
 .slick-track {
 	margin-top: 30px;
+}
+
+.info-slide1 p {
+	margin-left: -5px;
 }
 
 .info-slide p {

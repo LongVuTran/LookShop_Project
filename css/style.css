@@ -631,16 +631,24 @@ input {
 	font-size: 150%;
 }
 
-.info-slide p {
+.info-slide p, .info-slide1 p {
 	text-align: center;
     margin-right: 40px;
-    font-size: 12px;
+    
+}
+
+.name-product {
+	font-size: 12px;
+}
+
+.cost {
+	font-size: 22px;
 }
 
 .info-slide a {
 	position: relative;
 	left: 50px;
-	top: -10px;
+	top: -17px;
 }
 
 .info-slide {
@@ -650,7 +658,7 @@ input {
 
 .name-product {
 	margin-top: 7px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 
 .block-sale {
@@ -803,10 +811,22 @@ input {
 .info-slide p {
 	text-align: center;
     margin-right: 83px;
-    font-size: 12px;
 }
 
 .info-slide .last-product {
 	position: relative;
     left: 40px;
+}
+
+.info-slide1 p {
+	text-align: center;
+    position: relative;
+    top: -105px;
+    left: 10px;
+}
+
+.info-slide1 a {
+	position: relative;
+	left: 50px;
+	top: -121px;
 }
